@@ -2,5 +2,13 @@
     "require": {
         "dompdf/dompdf": "^3.1",
         "phpoffice/phpspreadsheet": "^5.9"
+    },
+    "config": {
+        "platform-check": false,
+        "platform": {
+            "ext-gd": "8.2.0",
+            "ext-dom": "8.2.0",
+            "ext-mbstring": "8.2.0"
+        }
     }
 }
